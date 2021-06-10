@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+}
+
+body {
+  background: #fafafa;
+  overflow: hidden;
+  height: 100%;
+}
+
+body,
+button,
+input,
+textarea {
+  color: #262626;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+#root,
+article,
+div,
+footer,
+header,
+main,
+nav,
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  flex-shrink: 0;
+}
+
+.section-wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.content {
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: center;
+  margin: 32px auto 0;
+  width: 100%;
+  max-width: 935px;
+  padding-bottom: 32px;
+}
+
+.phone-background {
+  align-self: center;
+  background-image: url(../img/instagram-celular.png);
+  background-position: 0 0;
+  background-size: 454px 618px;
+  flex-basis: 454px;
+  height: 618px;
+  margin-left: -35px;
+  margin-right: -15px;
+}
+
+.phone-wrapper {
+  margin: 99px 0 0 151px;
+  position: relative;
+}
+
+.phone-image {
+  height: 427px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 240px;
+}
+
+.card-background {
+  justify-content: center;
+  flex-grow: 1;
+  margin-top: 12px;
+  max-width: 350px;
+}
+
+.card-wrapper {
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 1px;
+  margin: 0 0 10px;
+  padding: 10px 0;
+}
+
+.card-header {
+  margin: 22px auto 12px;
+}
+
+.card-header h1 {
+  display: none;
+}
+
+.card-header img {
+  width: 175px;
+}
+
+.card-profile {
+  align-items: center;
+  align-content: stretch;
+  justify-content: center;
+}
+
+.button {
+  appearance: none;
+  background: 0 0;
+  cursor: pointer;
+  display: block;
+  font-weight: 600;
+  padding: 5px 9px;
+  text-align: center;
+  text-transform: inherit;
+  text-overflow: ellipsis;
+  user-select: none;
+  width: auto;
+}
+
+.profile-image {
+  border-radius: 100px;
+  border: solid 1px #efefef;
+  display: block;
+  height: 100px;
+  margin: 10px auto 10px;
+  width: 100px;
+}
+
+.card-login {
+  max-width: 100%;
+  min-width: 120px;
+  margin: 16px auto;
+  flex: 0 0 auto;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.login-button {
+  color: #fff;
+  background-color: #0095f6;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.login-button > div {
+  padding: 0 16px;
+}
+
+.card-account {
+  margin: 15px 0;
+  padding: 0 40px;
+  text-align: center;
+}
+
+.account-button,
+.account-button:visited {
+  color: #0095f6;
+  padding: 0;
+  display: inline;
+}
+
+.footer-wrapper {
+  color: #8e8e8e;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 0 16px;
+}
+
+.footer-content {
+  margin-top: 20px;
+}
+
+.footer-nav {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  flex: 0 0 auto;
+}
+
+.nav {
+  margin: 0 8px 12px;
+}
+
+.nav-link {
+  color: #8e8e8e;
+  text-decoration: none;
+  margin: -2px 0 -3px;
+}
+
+.footer-copyright {
+  margin: 12px 0;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: row;
+  flex: 0 0 auto;
+}
+
+.footer-select {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+
+.select-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.select {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+}
+
+.copyright {
+  margin-left: 16px;
+}
